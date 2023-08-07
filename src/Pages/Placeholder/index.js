@@ -21,9 +21,22 @@ const Index = () =>{
         style={{
             position: "relative",
             overflow: "hidden",
-            paddingTop: "56.25%"}}
+            paddingTop: "56.25%",
+            display:"flex",
+            justifyContent:"center"}}
             >
-            <iframe src="https://share.synthesia.io/embeds/videos/ffc78ade-cf8c-4653-ad00-6975c34cdc3a" loading="lazy" title="Synthesia video player - Your AI video" allow="encrypted-media; fullscreen;" style={{position: "absolute",width: "100%", height: "100%", top: 0, left: 0, border: "none", padding: 0, margin: 0, overflow:"hidden"}}></iframe></div>
+            <iframe src="https://share.synthesia.io/embeds/videos/ffc78ade-cf8c-4653-ad00-6975c34cdc3a" loading="lazy" title="Synthesia video player - Your AI video" allow="encrypted-media; fullscreen;" 
+            style={{
+                position: "absolute",
+                width: "50%",
+                height: "50%",
+                top: 0,
+                left: "25%",
+                border: "none",
+                padding: 0,
+                margin: 0,
+                overflow:"hidden"}}>
+            </iframe></div>
         </Fragment>
     )
 }
